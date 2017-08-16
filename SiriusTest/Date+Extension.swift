@@ -20,6 +20,10 @@ extension Date{
         return formatter.string(from: self)
     }
 
+    func transformString(format:String) -> Date{
+        return Date
+    }
+
 
 
 
