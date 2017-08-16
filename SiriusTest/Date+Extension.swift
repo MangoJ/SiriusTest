@@ -20,8 +20,8 @@ extension Date{
         return formatter.string(from: self)
     }
 
-    func transformString(format:String) -> Date{
-        return Date
+    func transformString(format:String) -> String{
+        return ""
     }
 
 
