@@ -21,7 +21,7 @@ extension Date{
     }
 
     func transformString(format:String) -> String{
-        return ""
+        return format
     }
 
 
